@@ -1,0 +1,1 @@
+<? define ("SERVNAME", "http://test1.ru/"); //константа полного пути ?>

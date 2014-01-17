@@ -1,0 +1,382 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:97%;
+   font-family: Candara; 
+}
+.ul {
+    height: 200px;
+    list-style: none outside none;
+    margin: -60px 50%;
+    padding: 0;
+    position: absolute;
+    width: 500px;
+}
+.ul li {
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+}
+.ul li img {
+	width: 85%;
+} 
+.menumain {
+    margin: 0px auto 0;
+    padding: 0 0 0 35px;
+    text-align: center;
+    width: 700px;
+	position: relative;
+}
+img {
+    border: none;
+}
+
+@font-face {
+font-family: 'Candara'; 
+url('css/Candara.ttf') format('truetype'); 
+font-weight: normal;
+font-style: normal;
+}
+
+
+.we, .pr, .ha, .hm, .hc{ 
+    position: absolute;
+    margin: 0px -2%;
+    width: 700px;
+	font-family: Candara; 
+}
+.button input:hover {
+    background: none repeat scroll 0 0 #ae0000;
+}
+ /*.blackout1 ,  .blackout3, .blackout4, .blackout5{
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 61px;
+    height: 80px;
+    margin: 22px 0 0 -178px;
+    opacity: 0.5;
+    position: absolute;
+    width: 80px;
+}
+*/
+.ultopmenu {
+	margin: 0 auto;
+	width:700px;
+}
+.ultopmenu  li{
+	float: left;
+    list-style: none outside none;
+    width: 100px;
+} 
+.slider {
+    height: 360px;
+}
+.logo {
+    margin: 0 auto;
+    width: 650px;
+}
+.logonew {
+  margin: 0 auto;
+  width: 695px;  
+}
+
+.footer { 
+    color: #A8A8A7;
+    font-size: 12px;
+    margin: 0 0 15px; 
+    text-align: center;
+    width: 100%;
+	font-family: Candara;
+}
+ 
+.page-wrapper {
+    min-height: 97%;
+    margin-bottom: -1px;
+}
+
+.gift {
+   margin: 10px 0 0 -125px;
+    position: absolute;
+}
+ 
+.mainmenuul { 
+    margin: 0 15%;
+}
+
+.mainmenuul a {
+	text-decoration: none;
+	color: #000;  
+}
+.mainmenuul a:hover {
+	text-decoration: none;
+	color: #e10f21;  
+}
+
+ 
+.mainmenuul  li{
+	border-right: 1px solid;
+    float: left;
+    list-style: none outside none;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.mainmenuul li:last-child {
+	border-right: none;
+} 
+
+.page-buffer {
+    height: 120px;
+}
+
+.namain {
+    height: 25px;
+    padding: 10px 0;
+    width: 700px;  
+	margin: 0 8%;
+}
+.wwmain {
+    height: 25px;
+    padding: 20px 0;
+    width: 700px;
+	margin: 0 20%;
+}
+.armain {
+    height: 25px;
+    padding: 20px 0;
+    width: 700px;
+	margin: 0 17%;
+}
+.hmmain { 
+    height: 25px;
+    padding: 27px 0;
+    width: 700px; 
+}
+
+.content {
+    font-family: Candara;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.prew {
+    margin: 51px 0 0 20px;
+    position: fixed;
+	z-index:111;
+}
+
+#rh-snippet   {
+	position:absolute;
+}
+
+.bell {
+    margin: -95px  0 0 -20px;
+    position: absolute;
+    text-align: right;
+    width: 100%;
+	cursor: pointer;
+	z-index: 11;
+}
+
+    
+#menu-new li.back {    
+    background: none repeat scroll 0 0 #FF0000;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 95px;
+    z-index: 111;
+	}
+ 
+#menu-new li.back, #menu-new li.end{
+	border-right: none;
+}  
+ 
+#nav li {
+    border-right: 1px solid;
+    float: left;
+    list-style: none outside none;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    z-index: 11111;
+}  
+#nav li  a{
+	color:#000;
+	text-decoration: none;
+}  
+#nav li  a:hover{
+	color: #e10f21;  
+}  
+
+.menupage {
+	text-align: center;
+	font-family: Candara; 
+}
+
+.menupage a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 50px;
+    text-decoration: none;
+}
+.menupage a:hover {
+    color: #e10f21; 
+}
+
+.z1 {
+	padding:95px 0 70px 0;
+}
+
+.contacts {
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 22px;
+}
+
+.contacts td {
+    padding: 0 10px 0 0;   
+	min-width: 50px;
+}
+
+.hist {
+    margin: 0 auto;
+    text-align: left;
+    font-size: 22px;
+}
+
+
+
+.hist span{
+    color: #e10f21;
+    font-weight: bold;
+}
+
+.hist td {
+    padding: 0 10px 0 0;   
+	min-width: 70px;
+}
+
+.contactsz {
+	color: #e10f21;    
+	text-align: right;
+}
+
+.line {
+    background: url("../images/line.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 2px;
+    margin: 0 auto;
+    width: 193px;
+}
+
+.back {
+    background: url("../images/prew.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+}
+
+.devel {
+    font-size: 21px;
+    font-weight: bold;   
+     margin: -85px 0 0;
+}
+
+.devel div{   
+     margin: 15px 0 0;
+}
+
+
+.www {
+    font-size: 12px;
+}
+
+#comand li{ 
+    float: left;
+    list-style: none outside none;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    z-index: 11111;
+    cursor: pointer;
+}
+ 
+
+#comand li.back {
+    background: none repeat scroll 0 0 #FF0000;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 410px;
+    z-index: 111;
+}
+
+.hrdiv {
+   border-bottom: 1px solid #000000;
+    margin: 220px 0 0 55px;
+    width: 732px;
+}
+
+#smdiv, #bmdiv, #jediv, #jeidiv, #midiv {
+    position: relative;
+}
+
+
+.smdivt, .bmdivt, .jedivt, .jeidivt, .midivt {
+    font-size: 14px;
+    position: absolute;
+    text-align: left;
+    width: 790px;
+}
+
+.fio {
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+.tez {
+    font-size: 17px;
+    font-weight: bold;   
+}
+
+#contsdiv {
+  position: absolute;  
+}
+
+#contsdiv img {    
+  margin: 35px 0 0 300px;
+}
+
+.smdivt img, .bmdivt img, .jedivt img, .jeidivt img, .midivt img {
+    margin:  0 73px 0 0;
+}
+
+.page-bufferco {
+    height: 360px;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo img {
+    z-index:1111;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+

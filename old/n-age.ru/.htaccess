@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.n-age\.ru$ [NC]
+RewriteRule ^(.*)$ http://n-age.ru/$1 [R=301,L]
+
+ 
+RewriteCond %{THE_REQUEST} ^.*/index.php 
+RewriteRule ^(.*)index.php$ http://n-age.ru/$1 [R=301,L]
+
+ErrorDocument 404 /err404.html

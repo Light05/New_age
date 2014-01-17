@@ -1,0 +1,576 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   font-family: Candara; 
+}
+.ul {
+   height: 200px;
+    list-style: none outside none;
+    margin: 0 0 0 300px ;
+    width: 500px;
+}
+.ul li {
+	height: 210px;
+	width: 210px;
+	text-align: center;
+	cursor: pointer;
+}
+.ul li img {
+	width: 100%;
+} 
+
+.slideruk {
+    height: 200px;
+    padding: 0;
+    position: relative;
+    width: 597px; 
+    
+}
+
+.menumain {
+    margin: 145px 0 0;
+    text-align: center;
+    width: 597px;
+	position: relative;
+}
+img {
+    border: none;
+}
+
+@font-face {
+font-family: 'Candara'; 
+url('css/Candara.ttf') format('truetype'); 
+font-weight: normal;
+font-style: normal;
+}
+
+
+.pr1, .pr2, .pr3, .pr5, .pr4{ 
+    position: absolute; 
+    width: 597px;
+	font-family: Candara; 
+}
+
+.pr1 img, .pr2 img, .pr3 img, .pr5 img, .pr4 img{ 
+    margin: 0 0 10px;
+}
+.button input:hover {
+    background: none repeat scroll 0 0 #ae0000;
+}
+ /*.blackout1 ,  .blackout3, .blackout4, .blackout5{
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 61px;
+    height: 80px;
+    margin: 22px 0 0 -178px;
+    opacity: 0.5;
+    position: absolute;
+    width: 80px;
+}
+*/
+.ultopmenu {
+	margin: 0 auto;
+	width:597px;
+}
+.ultopmenu  li{
+	float: left;
+    list-style: none outside none;
+    width: 100px;
+} 
+.slider { 
+}
+.logo {
+    margin: 0 auto;
+    width: 600px;
+}
+.logonew {
+    bottom: 0;
+    clear: both;
+    height: 100px;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    width: 600px;
+    right: 0;
+    top: 0; 
+}
+ 
+ 
+ 
+.footer { 
+  color: #A8A8A7;
+    font-family: Candara;
+    font-size: 12px;
+    height: 35px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+ 
+.page-wrapper {
+    min-height: 98%;
+    margin-bottom: -1px;
+}
+
+.gift { 
+   margin: -62px 0 0 250px;
+    position: absolute;
+    z-index: 111;
+}
+ 
+.mainmenuul { 
+    margin: 0 15%;
+}
+
+.mainmenuul a {
+	text-decoration: none;
+	color: #000;  
+}
+.mainmenuul a:hover {
+	text-decoration: none;
+	color: #e10f21;  
+}
+
+ 
+.mainmenuul  li{
+	border-right: 1px solid;
+    float: left;
+    list-style: none outside none;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.mainmenuul li:last-child {
+	border-right: none;
+} 
+
+.page-buffer {    
+    height: 495px;  
+}
+
+.page-buffer2 {
+    height: 40px;
+}
+
+.namain {
+    height: 25px; 
+    width: 597px;   
+}
+#menu-new {
+  
+}
+
+#nav {
+    display: table; /* элемент типа таблицы имеет ширину, зависящую от содержимого */
+    width: auto; /* для уверенности что ширина будет зависеть от содержимого*/
+    margin: 0 auto; /* устанавливаем отступ слева и справа в auto */
+    list-style: none;
+    font-size: 12px;
+    padding: 0; 
+}
+
+.wwmain {
+    height: 25px;
+    padding: 20px 0;
+    width: 700px;
+	margin: 0 20%;
+}
+.armain {
+    height: 25px;
+    padding: 20px 0;
+    width: 700px;
+	margin: 0 17%;
+}
+.hmmain { 
+    height: 25px;
+    padding: 27px 0;
+    width: 700px; 
+}
+
+.content {
+    font-family: Candara;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.content2 {
+    font-family: Candara;
+    margin: 0 auto;
+    width: 988px;
+    
+}
+
+.prew {
+    margin: 51px 0 0 20px;
+    position: fixed;
+	z-index:111;
+}
+
+#rh-snippet   {
+	position:absolute;
+}
+
+.bell {
+    margin: -40px  0 0 -20px;
+    position: absolute;
+    text-align: right;
+    width: 100%;
+	cursor: pointer;
+	z-index: 11;
+}
+
+    
+#menu-new li.back {    
+    background: none repeat scroll 0 0 #FF0000;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 80px;
+    z-index: 111;
+	}
+ 
+#menu-new li.back, #menu-new li.end{
+	border-right: none;
+}  
+ 
+#nav li {
+    border-right: 1px solid;
+    float: left;
+    list-style: none outside none;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    z-index: 11111;
+}  
+#nav li  a{
+	color:#000;
+	text-decoration: none;    
+    font-size: 16px;
+}  
+#nav li  a:hover{
+	color: #e10f21;  
+}  
+#nav li:first-child {
+    border: medium none;
+    padding: 0;
+}
+
+.menupage {
+	text-align: center;
+	font-family: Candara; 
+}
+
+.menupage a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 50px;
+    text-decoration: none;
+}
+.menupage a:hover {
+    color: #e10f21; 
+}
+
+.z1 {
+	padding:60px 0 70px 0;
+}
+
+.contacts {
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 18px;
+}
+
+.contacts td {
+    padding: 0 10px 0 0;   
+	min-width: 50px;
+}
+
+.hist {
+    margin: 0 auto;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+.hist span{
+    color: #e10f21;
+    font-weight: bold;
+}
+
+.hist td {
+    padding: 0 10px 0 0;   
+	min-width: 70px;
+}
+
+.contactsz {
+	color: #e10f21;    
+	text-align: right;
+}
+
+
+.footer .line {
+    background: url("../images/line.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 2px;
+    margin: 0 auto;
+    width: 193px;
+}
+
+.back {
+    background: url("../images/prew.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+}
+
+.devel {
+    font-size: 21px;
+    font-weight: bold;   
+     margin: -85px 0 0;
+}
+
+.devel div{   
+     margin: 15px 0 0;
+}
+
+
+.www {
+    font-size: 12px;
+}
+
+#comand li{ 
+    float: left;
+    list-style: none outside none;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    z-index: 11111;
+    cursor: pointer;
+    width: 165px;   
+    line-height: 16px;
+}
+ 
+
+#comand li.back {
+    background: none repeat scroll 0 0 #FF0000;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 350px;
+    z-index: 111;
+}
+
+.hrdiv {
+    border-bottom: 1px solid #000000;
+    margin: 220px 0 0 40px;
+    width: 925px;
+}
+
+#smdiv, #bmdiv, #jediv, #jeidiv, #midiv {
+    position: relative;
+}
+
+
+.smdivt, .bmdivt, .jedivt, .jeidivt, .midivt {
+    font-size: 14px;
+    position: absolute;
+    text-align: left;
+    width: 790px;
+}
+
+.fio {
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+.tez {
+    font-size: 17px;
+    font-weight: bold;   
+}
+
+#contsdiv {
+  position: absolute;  
+}
+ 
+
+.smdivt img, .bmdivt img, .jedivt img, .jeidivt img, .midivt img {
+    margin:  0 73px 0 0;
+}
+
+.page-bufferco {
+    height: 425px;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo img {
+    z-index:1111;
+    position: relative;
+}
+
+.gallery {
+        width: 989px;    
+        height: 688px;    
+        margin: 0 auto;
+}
+
+
+
+
+.gallery img:hover {
+    opacity: 1;
+}
+
+.artproj1 {
+   background: none repeat scroll 0 0 #fff;
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    opacity: 0.76;
+    width: 494px;
+    height: 330px;
+}
+.artproj1.yes, .artproj2.yes, .artproj3.yes, .artproj4.yes{
+    display: block;
+}
+
+.artproj2 {
+    background: none repeat scroll 0 0 #fff;
+    display: none;
+    font-size: 30px; 
+    position: absolute; 
+    opacity: 0.76;    
+    margin: 0 0 0 494px;
+    width: 494px;
+    height: 330px;
+    
+}
+
+.artproj3 {
+    background: none repeat scroll 0 0 #fff;
+    display: none;
+    font-size: 30px; 
+    position: absolute; 
+    opacity: 0.76;    
+    margin: 330px 0 0 0;
+    width: 494px;
+    height: 330px;
+}
+.artproj4 {
+    background: none repeat scroll 0 0 #fff;
+    display: none;
+    font-size: 30px; 
+    position: absolute; 
+    opacity: 0.76;    
+    margin: 330px 0 0 494px;
+    width: 494px;
+    height: 330px;
+}
+
+.gallery .g1  {
+    background: none repeat scroll 0 0 #000;
+    float: left;
+    height: 165px;
+    width: 247px;
+}
+
+.gallery img {    
+    border: medium none;
+    cursor: pointer;
+    opacity: 0.5;
+    float: left;
+    height: 165px;
+    width: 247px;
+}
+
+
+.artproj1 img, .artproj2 img, .artproj3 img, .artproj4 img {
+    height: 330px;
+    width: 494px;
+}
+ 
+.topmenu {
+    width: 100%;
+}
+
+.footer div {
+    width: 597px;
+    margin: -45px auto;
+}
+
+
+.container{
+    width: 100%;
+    margin-bottom: -1px;
+    min-height: 100%; 
+}
+.box{
+    bottom: 0;
+    height: 455px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 125px;
+    width: 600px;
+}
+.clear {
+    clear: both;
+}
+
+#contsdiv {
+     font-size: 24px;
+    margin: 15px 0 0;
+    text-align: center;
+    width: 938px;
+}
+
+.conimg, .context {
+   position: absolute;
+}
+
+.conimg {
+    width: 310px;
+    margin: 15px 0 0 55px;
+}
+.context {
+    margin: 15px 0 0 400px;
+    text-align: left;
+    width: 570px;
+}
+
+.footer span {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

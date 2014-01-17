@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<? require_once  '../../../head.php'; headpagepage ();  //подключение head?>
+<title><? $titles = title ($title); echo $titles[9]; ?></title>
+</head>
+<body>
+	
+<div class="page-wrapper">	
+<? require_once $url.'top-menu.php'; //подключение верхнего меню?>
+<div class="content">
+
+<div class="menupage">
+
+<div class="z1">
+	<h1>РАЗРАБОТКА САЙТОВ</h1>
+</div>
+<div class="devel">
+Раздел в разработке
+<div>
+<img src="<?=SERVNAME;?>images/angel.png" alt="angel" /> 
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<div class="page-buffer2"></div>
+</div> 
+
+<? require_once $url.'footer.php'; //подключение footer?>
+	</body>
+</html>
